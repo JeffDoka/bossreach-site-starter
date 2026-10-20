@@ -29,7 +29,7 @@ Step-by-step instructions for a non-technical owner: **https://bossreach.io/webs
 In PowerShell (Windows) or Terminal (Mac):
 
 ```
-npm create cloudflare@latest -- my-site --template=github:JeffDoka/bossreach-site-starter --no-deploy --no-git
+npm create cloudflare@latest -- my-site --template=github:JeffDoka/bossreach-site-starter --no-deploy --no-git --no-agents
 cd my-site
 claude
 ```
