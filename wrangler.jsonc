@@ -1,0 +1,45 @@
+{
+  // Your site's settings on Cloudflare. Claude edits this file for you ("deploy", "connect my domain",
+  // "turn on the contact form"). Comments like this one are allowed.
+  "$schema": "node_modules/wrangler/config-schema.json",
+
+  // The name becomes your free address: https://<name>.<your-account>.workers.dev
+  "name": "my-site",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-01",
+
+  // Before every dev run and every deploy, turn content/ into the finished site in dist/.
+  "build": {
+    "command": "node scripts/build.mjs",
+    "watch_dir": ["content", "public", "theme", "scripts"]
+  },
+
+  // The finished site. The Worker only runs for /api/* (the contact form); pages are served directly.
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+
+  // CONTACT FORM (off until you switch it on; see .claude/skills/turn-on-contact-form).
+  // Remove the two slashes at the start of the lines below, put in your own addresses, then deploy.
+  // CONTACT_TO must be an address you verified in Cloudflare Email Routing. CONTACT_FROM must be
+  // an address at your own domain (for example forms@yourdomain.com).
+  //
+  // "send_email": [{ "name": "MAIL", "destination_address": "you@example.com" }],
+  // "vars": {
+  //   "SITE_NAME": "My Business",
+  //   "CONTACT_TO": "you@example.com",
+  //   "CONTACT_FROM": "forms@yourdomain.com"
+  // },
+
+  // YOUR OWN DOMAIN (off until you have one on Cloudflare; see .claude/skills/connect-domain).
+  // "routes": [
+  //   { "pattern": "yourdomain.com", "custom_domain": true },
+  //   { "pattern": "www.yourdomain.com", "custom_domain": true }
+  // ],
+
+  "observability": { "enabled": true }
+}

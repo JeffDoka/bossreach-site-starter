@@ -1,0 +1,16 @@
+{
+  "sections": [
+    { "title": "Breakfast", "items": [
+      { "name": "Two Egg Plate", "description": "Two eggs your way, hash browns and toast.", "price": "$9" },
+      { "name": "Buttermilk Pancakes", "description": "A stack of three with butter and syrup.", "price": "$8" }
+    ] },
+    { "title": "Lunch", "items": [
+      { "name": "Diner Burger", "description": "Beef patty, cheddar, lettuce and tomato with fries.", "price": "$12" },
+      { "name": "Grilled Cheese", "description": "Sourdough, two cheeses, side of tomato soup.", "price": "$9" }
+    ] },
+    { "title": "Drinks", "items": [
+      { "name": "Coffee", "description": "Bottomless.", "price": "$3" },
+      { "name": "Fresh Orange Juice", "price": "$4" }
+    ] }
+  ]
+}

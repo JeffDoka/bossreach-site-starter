@@ -1,0 +1,4 @@
+/* Small business: clean and plain, square-ish cards, sans-serif throughout. */
+.t-business .cards article{border-left:4px solid var(--accent);border-radius:6px}
+.t-business .btn{border-radius:4px}
+.t-business .hero{min-height:14rem}

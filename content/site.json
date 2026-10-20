@@ -1,0 +1,37 @@
+{
+  "template": "restaurant",
+  "schemaType": "Restaurant",
+  "name": "Sample Diner",
+  "tagline": "Breakfast and lunch, made fresh every morning",
+  "description": "Sample Diner is a friendly neighbourhood restaurant serving breakfast and lunch in Sampleville. Come in for eggs, pancakes, burgers and good coffee.",
+  "url": "",
+  "language": "en",
+  "phone": "(555) 010-0100",
+  "email": "hello@example.com",
+  "address": { "street": "123 Main Street", "city": "Sampleville", "region": "KS", "postalCode": "67000", "country": "US" },
+  "hours": [
+    { "days": ["Monday"], "closed": true },
+    { "days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "07:00", "closes": "15:00" }
+  ],
+  "cuisine": "American",
+  "priceRange": "$$",
+  "colours": { "primary": "#7a1f1f", "accent": "#d9822b", "background": "#fffaf3", "text": "#2b2118" },
+  "heroImage": "",
+  "heroAlt": "",
+  "logo": "",
+  "primaryButton": { "label": "See the menu", "url": "/menu/" },
+  "highlights": [
+    { "title": "Breakfast all day", "text": "Eggs, pancakes and hash browns, served until we close." },
+    { "title": "Fresh and local", "text": "We buy from farms nearby whenever we can." },
+    { "title": "Family friendly", "text": "High chairs, a kids menu and plenty of crayons." }
+  ],
+  "social": [],
+  "contactForm": true,
+  "showBuiltWith": true,
+  "puzzle": {
+    "_note": "OPTIONAL. Available once bossfeed ships /embed. Do not turn on until https://bossfeed.fun/embed/3072 opens a playable puzzle. Then set enabled to true.",
+    "enabled": false,
+    "title": "Waiting for your food? Try a puzzle",
+    "url": "https://bossfeed.fun/embed/3072"
+  }
+}

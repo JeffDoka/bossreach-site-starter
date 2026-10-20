@@ -1,0 +1,37 @@
+{
+  "template": "business",
+  "schemaType": "LocalBusiness",
+  "name": "Sample Services Co.",
+  "tagline": "Honest local help, done right the first time",
+  "description": "Sample Services Co. is a locally owned business in Sampleville. We offer friendly, reliable service at fair prices.",
+  "url": "",
+  "language": "en",
+  "phone": "(555) 010-0100",
+  "email": "hello@example.com",
+  "address": { "street": "123 Main Street", "city": "Sampleville", "region": "KS", "postalCode": "67000", "country": "US" },
+  "hours": [
+    { "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "17:00" },
+    { "days": ["Saturday"], "opens": "10:00", "closes": "14:00" },
+    { "days": ["Sunday"], "closed": true }
+  ],
+  "priceRange": "$$",
+  "colours": { "primary": "#1f3a5f", "accent": "#2a8c6b", "background": "#ffffff", "text": "#1c2430" },
+  "heroImage": "",
+  "heroAlt": "",
+  "logo": "",
+  "primaryButton": { "label": "Get in touch", "url": "/contact/" },
+  "highlights": [
+    { "title": "Local and trusted", "text": "Neighbours have chosen us for years." },
+    { "title": "Clear prices", "text": "You know the cost before we start." },
+    { "title": "Fast replies", "text": "We answer calls and messages the same day." }
+  ],
+  "social": [],
+  "contactForm": true,
+  "showBuiltWith": true,
+  "puzzle": {
+    "_note": "OPTIONAL. Available once bossfeed ships /embed. Do not turn on until https://bossfeed.fun/embed/3072 opens a playable puzzle. Then set enabled to true.",
+    "enabled": false,
+    "title": "Take a break with a puzzle",
+    "url": "https://bossfeed.fun/embed/3072"
+  }
+}

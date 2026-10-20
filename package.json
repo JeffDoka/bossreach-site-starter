@@ -1,0 +1,20 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small-business website that deploys to your own Cloudflare account. Starter kit from Bossreach.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "template": "node scripts/use-template.mjs",
+    "test": "node --test",
+    "deploy": "node scripts/check.mjs --errors-only && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.151.0"
+  }
+}

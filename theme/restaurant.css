@@ -1,0 +1,5 @@
+/* Restaurant: warm, serif headings, a menu that reads like a printed card. */
+.t-restaurant h1,.t-restaurant h2,.t-restaurant h3,.t-restaurant .brand{font-family:Georgia,"Times New Roman",serif}
+.t-restaurant .menu-section h2{border-bottom:2px solid var(--accent);padding-bottom:.2rem}
+.t-restaurant .menu .price{color:var(--accent)}
+.t-restaurant .cards article{border-top:4px solid var(--accent)}

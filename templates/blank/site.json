@@ -1,0 +1,27 @@
+{
+  "template": "blank",
+  "schemaType": "LocalBusiness",
+  "name": "My Business",
+  "tagline": "",
+  "description": "A short sentence about what My Business does and where.",
+  "url": "",
+  "language": "en",
+  "phone": "",
+  "email": "",
+  "address": {},
+  "hours": [],
+  "colours": { "primary": "#222222", "accent": "#0a6ebd", "background": "#ffffff", "text": "#222222" },
+  "heroImage": "",
+  "heroAlt": "",
+  "logo": "",
+  "highlights": [],
+  "social": [],
+  "contactForm": false,
+  "showBuiltWith": true,
+  "puzzle": {
+    "_note": "OPTIONAL. Available once bossfeed ships /embed. Do not turn on until https://bossfeed.fun/embed/3072 opens a playable puzzle. Then set enabled to true.",
+    "enabled": false,
+    "title": "Take a break with a puzzle",
+    "url": "https://bossfeed.fun/embed/3072"
+  }
+}
